@@ -1,0 +1,133 @@
+
+
+/*this is the harder version google results page css.  I never did work out how to put the second line below my table, but plan to work on it and come back at some point.  Also can't centre the text box without monumentally screwing everything up. Think the answer may be a table, but I'm losing the will to live with this. KittyD, 23/4/16. */
+
+.topheader li {
+display:inline;
+/*color of google gray background is #f1f1f1;*/
+}
+
+.topheader {
+position:static;
+width:100%
+right:0;
+top:0;
+left:0;
+height:58px;
+background-color:#f1f1f1;
+}
+
+#farleft {
+float:left;
+}
+#formthing {
+width: 400px;
+text-align:center;
+}
+#farright {
+float:right}
+
+.lowborder {margin-left:100px;
+border:3px solid #f1f1f1;
+border-top:none;
+border-left:none;
+border-right:none;}
+
+.lowborder li{
+ display: inline-block;
+
+ 
+  }
+
+#borderstuff a {text-decoration: none;
+font-family: Arial, Verdana;
+  color:gray;
+  font-size:20px;
+padding:3px;
+}
+
+
+#helensthings {float:right;
+margin-top:-5px;
+}
+
+
+
+
+h1 {
+ font-family: Arial, Verdana;
+  color:gray;
+  font-size:20px;
+margin-left:133px;
+   
+}
+
+/*this is the results section*/
+
+.wrapper {margin: auto;
+width:1005px;
+clear:both;
+font-family:Arial;}
+
+.rightbox {float:left;
+width:40%;
+margin-top: 100px;}
+.results {float:left;
+width:60%;}
+
+#greenlink {
+font-size:15px;
+font-family:Arial;
+color:green;}
+
+
+span {font-weight:bold;}
+
+
+h3 {font-family: Arial, Verdana;
+  color:gray;
+  font-size:20px;
+border-top:3px solid gray;
+padding:5px;}
+
+
+/* the reason the table data wasn't being changed was because the anchor tag had to be selected!!! */
+
+table, td a{ 
+font-family:Arial;
+color:blue;
+text-decoration:none;
+font-size: 12px;
+padding:5px;
+font-weight:bold;
+}
+
+/* footer section */
+
+.footer a {
+font-family:Arial;
+color:black;
+text-decoration:none
+}
+
+.footer li {
+  display: inline-block;
+  padding: 5px;
+  }
+
+.footer {
+clear:both;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #efefef;
+  }
+
+#right {
+  float: right;
+}
+
+#left {
+  float: left;
+}
+
